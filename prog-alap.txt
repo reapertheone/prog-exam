@@ -1,0 +1,99 @@
+1. feladat
+#Boolean
+var variable=True;
+#vagy lehet 0 ha false es 1 ha true
+
+#string
+var variable="ez egy string"
+
+#integer
+var variable=5
+
+#float
+var variable=5.6
+
+2. feladat
+ha referencia alapjan adjuk at a fuggvenynek a valtozot a fuggvenyen kivul
+es belul is ugyan az lesz az erteke.
+Ha ertekkent adjuk at akkor csak az ertekuk lessz ugyan az a memoriahivatkozasuk mas lessz.
+
+3.feladat
+nem tiszta a kerdes de ha a SUM fuggvenyre iranyul a kerdes a valasz a kovetkezo:
+
+van egy bememeneti tomb mint peldaul:array[1,2,3,4,5]
+megnezem a tomb hosszat mint peldaul len(array) (python) ami valaszul megadja hogy 5 egyseg hosszu a tombunk
+
+vegigiteraljuk a pointert a tomb hossza-1ig(mivel a tomb szamozasa 0tol kezdodik) a vegeredmeny hasonlo lessz a kovetkezo fuggvenyhez:
+
+arr=[1,2,3,4,5]
+def sum(arr):
+    total=0
+    for i in range(0,len(arr)-1):
+        total+=arr[i]
+    return total //15
+
+
+4.feladat
+an egy bememeneti tomb mint peldaul:array[1,2,3,4,5]
+megnezem a tomb hosszat mint peldaul len(array) (python) ami valaszul megadja hogy 5 egyseg hosszu a tombunk
+vegigiteraljuk a tombot len(array)-1ig es ha a szam nagyobb mint 0 akkor megnoveljuk a szamlalo ertekkent
+
+def positivecount(array):
+    count=0
+    for i in range(0,len(arr)-1):
+        if(arr[i]>0):
+            count+=1
+    return count
+
+5. feladat
+
+switch(num) {
+  case 0:
+    // do something nice
+    break;
+  case 1:
+    // do something nice
+    break;
+  default:
+    // do something nice
+}
+
+
+
+7.feladat
+
+function osszeadas(var a,var b){
+    var total=a+b
+}
+
+function kivonas(var a,var b){
+    var total=a-b
+}
+
+function osztas(var a,var b){
+    total=a/b
+}
+
+function szorzas(var a,var b){
+    total=a*b
+}
+
+export {osszeadas, kivonas, szorzas, osztas}
+
+8.feladat
+
+function matrix(var x, var y){
+    x=prompt();
+    y=prompt();
+    var array1=[]
+    var array2=[]
+    
+    for(var i=0; i<=y-1; i++){
+        for(var j=0;j<=x-1;x++){
+            array2.push(Math.pow(2,j))
+    }
+    array1.push(array2)
+}
+
+
+
